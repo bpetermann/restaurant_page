@@ -192,16 +192,14 @@ body {
 }
 
 @media only screen and (max-width: 930px) {
-  #header {
-    margin-bottom: 1em;
-  }
-
+ 
   .ourMenu {
     width: 90%;
   }
 
   .logo {
     width: 95%;
+    padding-left: 0px;
   }
 
   #content {
@@ -217,7 +215,8 @@ body {
   }
 
   #contact {
-    margin-left: 0em;
+    margin-top: 0.2em;
+    padding-left: 0.2em;
     grid-template-areas:
       'phoneDescription'
       'phone'
@@ -227,8 +226,8 @@ body {
       'adress';
   }
 
-  #container {
-    margin-top: 1em;
+  #home {
+    margin-top: 0.2em;
   }
 
   #menue {
