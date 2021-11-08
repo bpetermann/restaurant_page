@@ -61,7 +61,7 @@ body {
 
 .btn-nav {
   padding: 0.8em;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-left: 4.9em;
   width: 8em;
   border: 0.3em double #000;
@@ -186,7 +186,8 @@ body {
 
 .footer {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 930px) {
@@ -243,7 +244,4 @@ body {
     justify-self: start;
   }
 
-  .footer {
-    margin-top: 4em;
-  }
 }
